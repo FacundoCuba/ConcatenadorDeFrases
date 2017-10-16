@@ -20,8 +20,9 @@ public class MainActivity extends AppCompatActivity {
         TextView frasesSumadas = (TextView) findViewById(R.id.txtFrasesConcatenadas);
         frasesSumadas.setText(concatenados, TextView.BufferType.EDITABLE);
         TextView numeroDeLetras = (TextView) findViewById(R.id.numTotalDeCaracteres);
-        Integer num = frase1.getText().length()+frase2.getText().length();
-        numeroDeLetras.setText(num, TextView.BufferType.EDITABLE);
+        String frasesSinEspacios = concatenados.replace(" ", "");
+        Integer num = frasesSinEspacios.length();
+        numeroDeLetras.setText(String.valueOf(num), TextView.BufferType.EDITABLE);
     }
 
 

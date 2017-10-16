@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="Frase1">Ingrese la primera frase</string>
+    <string name="Frase2">Ingrese la segunda frase</string>
+    <string name="NumeroDeLetras">Numero de Letras</string>
+    <string name="Boton">Procesar</string>
 </resources>
